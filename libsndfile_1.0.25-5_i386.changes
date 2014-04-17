@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Mon, 18 Jun 2012 19:22:57 +1000
+Source: libsndfile
+Binary: libsndfile1-dev libsndfile1 sndfile-programs
+Architecture: source i386
+Version: 1.0.25-5
+Distribution: unstable
+Urgency: low
+Maintainer: Erik de Castro Lopo <erikd@mega-nerd.com>
+Changed-By: Erik de Castro Lopo <erikd@mega-nerd.com>
+Description: 
+ libsndfile1 - Library for reading/writing audio files
+ libsndfile1-dev - Development files for libsndfile; a library for reading/writing a
+ sndfile-programs - Sample programs that use libsndfile
+Closes: 670420
+Changes: 
+ libsndfile (1.0.25-5) unstable; urgency=low
+ .
+   * debian/libsndfile1-dev: Do not install libsndfile.la (Closes: #670420).
+   * debian/control: Standards version 3.9.3. No changes needed.
+Checksums-Sha1: 
+ 67731dfcfcde119c43d579746d583cf7c288150e 1088 libsndfile_1.0.25-5.dsc
+ 6543a68f22d8b80b1578c7978c0284dcdb978574 9757 libsndfile_1.0.25-5.debian.tar.gz
+ f98ca5b79b349bf2322184ec0eb47ebf7f0769fd 392568 libsndfile1-dev_1.0.25-5_i386.deb
+ 65fc7b1402ce13c6e12a37c2e866674fb4cf441e 255052 libsndfile1_1.0.25-5_i386.deb
+ 24c17341c5b23864c24436a6762239ed6092f99e 116722 sndfile-programs_1.0.25-5_i386.deb
+Checksums-Sha256: 
+ 73051490d723072277b3210d61a49174b6a635fe82aed6a65ca087510f4fa05e 1088 libsndfile_1.0.25-5.dsc
+ f3a5a303acba2bd2ba385b7f63c02cdb06e4d07d97ffacc39296235e53d722ee 9757 libsndfile_1.0.25-5.debian.tar.gz
+ 87670c40f53345d07ad3e51df2bc4e75ea66512cadb15c9f27ba228eaedbcf82 392568 libsndfile1-dev_1.0.25-5_i386.deb
+ 36a04769b0fb4565b8262b3bac71a476829c98de33046b80900fd242e3f2b691 255052 libsndfile1_1.0.25-5_i386.deb
+ ca686bebd4807fc35ac3ab9d6c74a9c340c261fcbfe55989e47ae9cc98ffce0c 116722 sndfile-programs_1.0.25-5_i386.deb
+Files: 
+ cca1779d3e7f7469e1204bf15742d33a 1088 devel optional libsndfile_1.0.25-5.dsc
+ 78f918071b11b0cf0522581b112bb57e 9757 devel optional libsndfile_1.0.25-5.debian.tar.gz
+ 022f5fbaab578a7dc24d6633ef8e163a 392568 libdevel optional libsndfile1-dev_1.0.25-5_i386.deb
+ 7125477235a97dff579bf973d6cfb687 255052 libs optional libsndfile1_1.0.25-5_i386.deb
+ d203cd0d45c6c8d4e62e7c5e2d6d8ea1 116722 utils optional sndfile-programs_1.0.25-5_i386.deb

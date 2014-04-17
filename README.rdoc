@@ -27,3 +27,16 @@ Furthermore, {Social Stream's code documentation is available at rdoc.info}[http
 If you have any questions or issues regarding Social Stream usage, {Social Stream's Google group}[http://groups.google.com/group/social-stream] is a perfect place to share them. Other experienced users of Social Stream will be willing to help you. There exist also a {social-stream tag in StackOverflow}[http://stackoverflow.com/questions/tagged/social-stream]
 
 {Social Stream's issue tracker}[https://github.com/ging/social_stream/issues] is reserved to discuss defects and contributions. Please do not post questions in the issue tracker.
+
+sudo apt-get build-dep  libsndfile
+apt-get source libsndfile
+Will install all required dependencies for building, then (the second line) will fetch you a buildable source tree and unpack it. You can then build it using:
+
+cd libsndfile
+dpkg-buildpackage
+Or instead of ALL that you can just install it if you don't need to fiddle with sources:
+
+sudo apt-get install libsndfile
+you may also want libsndfile-dev, depending on what you're doing with that library (see apt-cache show libsndfile-dev)
+
+apt-get install libsndfile1-dev

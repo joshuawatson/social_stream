@@ -1,0 +1,19 @@
+Package: libsndfile1-dev
+Source: libsndfile
+Version: 1.0.25-5
+Architecture: i386
+Maintainer: Erik de Castro Lopo <erikd@mega-nerd.com>
+Installed-Size: 1006
+Depends: libsndfile1 (= 1.0.25-5), pkg-config, libvorbis-dev (>= 1.2.3), libflac-dev (>= 1.1.4-3)
+Conflicts: libsndfile-dev, libsndfile0-dev
+Replaces: libsndfile-dev
+Provides: libsndfile-dev
+Section: libdevel
+Priority: optional
+Homepage: http://www.mega-nerd.com/libsndfile/
+Description: Development files for libsndfile; a library for reading/writing audio files
+ libsndfile is a library of C routines for reading and writing files containing
+ sampled audio data.
+ .
+ This is the development version of libsndfile. You will need this only if you
+ intend to compile programs that use this library.
